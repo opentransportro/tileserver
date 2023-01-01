@@ -4,6 +4,7 @@
         "root": "/data",
         "fonts": "fonts",
         "styles": "styles",
+        "sprites": "sprites",
         "mbtiles": "/data"
       }
     },

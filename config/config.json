@@ -4,6 +4,7 @@
         "root": "/data",
         "fonts": "fonts",
         "styles": "styles",
+        "sprites": "sprites",
         "mbtiles": "/data"
       }
     },
@@ -21,6 +22,28 @@
       },
       "fiord": {
         "style": "fiord/style.json",
+        "tilejson": {
+          "bounds": [
+            20.24181,
+            43.61247,
+            30.27896,
+            48.26948
+          ]
+        }
+      },
+      "streets-v2-light": {
+        "style": "streets-v2-light/style.json",
+        "tilejson": {
+          "bounds": [
+            20.24181,
+            43.61247,
+            30.27896,
+            48.26948
+          ]
+        }
+      },
+      "streets-v2-dark": {
+        "style": "streets-v2-dark/style.json",
         "tilejson": {
           "bounds": [
             20.24181,

@@ -1,0 +1,39 @@
+{
+    "options": {
+      "paths": {
+        "root": "/data",
+        "fonts": "fonts",
+        "styles": "styles",
+        "mbtiles": "/data"
+      }
+    },
+    "styles": {
+      "basic-preview": {
+        "style": "basic-preview/style.json",
+        "tilejson": {
+          "bounds": [
+            20.24181,
+            43.61247,
+            30.27896,
+            48.26948
+          ]
+        }
+      },
+      "fiord": {
+        "style": "fiord/style.json",
+        "tilejson": {
+          "bounds": [
+            20.24181,
+            43.61247,
+            30.27896,
+            48.26948
+          ]
+        }
+      }
+    },
+    "data": {
+      "v3": {
+        "mbtiles": "romania.mbtiles"
+      }
+    }
+  }

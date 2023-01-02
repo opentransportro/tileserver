@@ -5180,6 +5180,6 @@
     }
   ],
   "glyphs": "{fontstack}/{range}.pbf",
-  "sprite": "sprite",
+  "sprite": "streets-v2-dark/sprite",
   "id":"streets-v2-dark"
 }

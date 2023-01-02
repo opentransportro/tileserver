@@ -3587,7 +3587,7 @@
         "text-size": 9,
         "icon-image": "exit_{ref_length}",
         "text-field": "{ref}",
-        "visibility": "none",
+        "visibility": "visible",
         "text-offset": [
           0,
           0.1
@@ -3654,7 +3654,7 @@
         "text-size": 10,
         "icon-image": "road_{ref_length}",
         "text-field": "{ref}",
-        "visibility": "none",
+        "visibility": "visible",
         "text-offset": [
           0,
           0.1
@@ -3740,7 +3740,7 @@
         "text-size": 9,
         "icon-image": "{network}_{ref_length}",
         "text-field": "{ref}",
-        "visibility": "none",
+        "visibility": "visible",
         "text-offset": [
           0,
           0.2
@@ -3850,7 +3850,7 @@
           ]
         ],
         "text-field": "{name:latin}",
-        "visibility": "none",
+        "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
           0,
@@ -4288,7 +4288,7 @@
           ""
         ],
         "text-field": "{name:latin}",
-        "visibility": "none",
+        "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
           0,
@@ -4529,7 +4529,7 @@
             ]
           ]
         },
-        "visibility": "none",
+        "visibility": "visible",
         "text-anchor": "top",
         "text-offset": [
           0,

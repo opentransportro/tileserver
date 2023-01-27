@@ -1,45 +1,55 @@
 {
-    "options": {
-      "paths": {
-        "root": "/data",
-        "fonts": "fonts",
-        "styles": "styles",
-        "sprites": "sprites",
-        "mbtiles": "/data"
-      },
-      "serveAllFonts": true,
-      "pbfAlias": "pbf",
-      "maxScaleFactor": 3
+  "options": {
+    "paths": {
+      "root": "/data",
+      "fonts": "fonts",
+      "styles": "styles",
+      "sprites": "sprites",
+      "mbtiles": "/data"
     },
-    "styles": {
-      "streets-v2-light": {
-        "style": "streets-v2-light/style.json",
-        "serve_rendered": false,
-        "tilejson": {
-          "bounds": [
-            20.24181,
-            43.61247,
-            30.27896,
-            48.26948
-          ]
-        }
-      },
-      "streets-v2-dark": {
-        "style": "streets-v2-dark/style.json",
-        "serve_rendered": false,
-        "tilejson": {
-          "bounds": [
-            20.24181,
-            43.61247,
-            30.27896,
-            48.26948
-          ]
-        }
+    "serveAllFonts": true,
+    "pbfAlias": "pbf",
+    "maxScaleFactor": 3
+  },
+  "styles": {
+    "streets-v2-light": {
+      "style": "streets-v2-light/style.json",
+      "tilejson": {
+        "bounds": [
+          20.24181,
+          43.61247,
+          30.27896,
+          48.26948
+        ]
       }
     },
-    "data": {
-      "v3": {
-        "mbtiles": "romania.mbtiles"
+    "streets-v2-dark": {
+      "style": "streets-v2-dark/style.json",
+      "tilejson": {
+        "bounds": [
+          20.24181,
+          43.61247,
+          30.27896,
+          48.26948
+        ]
+      }
+    },
+
+    "streets-v2": {
+      "style": "streets-v2-basic/style.json",
+      "tilejson": {
+        "bounds": [
+          20.24181,
+          43.61247,
+          30.27896,
+          48.26948
+        ]
       }
     }
+  },
+  "data": {
+    "v3": {
+      "mbtiles": "romania.mbtiles"
+    }
   }
+}

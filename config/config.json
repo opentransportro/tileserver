@@ -7,11 +7,14 @@
         "sprites": "sprites",
         "mbtiles": "/data"
       },
-      "serveAllFonts": true
+      "serveAllFonts": true,
+      "pbfAlias": "pbf",
+      "maxScaleFactor": 3
     },
     "styles": {
       "streets-v2-light": {
         "style": "streets-v2-light/style.json",
+        "serve_rendered": false,
         "tilejson": {
           "bounds": [
             20.24181,
@@ -23,6 +26,7 @@
       },
       "streets-v2-dark": {
         "style": "streets-v2-dark/style.json",
+        "serve_rendered": false,
         "tilejson": {
           "bounds": [
             20.24181,

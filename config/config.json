@@ -6,7 +6,8 @@
         "styles": "styles",
         "sprites": "sprites",
         "mbtiles": "/data"
-      }
+      },
+      "serveAllFonts": true
     },
     "styles": {
       "streets-v2-light": {
